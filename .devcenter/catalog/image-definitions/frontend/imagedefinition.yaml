@@ -14,11 +14,10 @@ tasks:
     parameters:
       package:  Microsoft.Azd
 
-  - name: ~/winget
+  - name: choco
     description: Install Postmand
     parameters:
       package: Postman.Postman
-      switches: --accept-package-agreements --accept-source-agreements
 
   - name: ~/winget
     description: Install Visual Studio Code
