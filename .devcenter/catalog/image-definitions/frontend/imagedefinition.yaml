@@ -17,7 +17,7 @@ tasks:
   - name: choco
     description: Install Postmand
     parameters:
-      package: Postman.Postman
+      package: postman
 
   - name: ~/winget
     description: Install Visual Studio Code
