@@ -14,7 +14,7 @@ tasks:
     parameters:
       package:  Microsoft.Azd
 
-  - name: choco
+  - name: ~/choco
     description: Install Postmand
     parameters:
       package: postman
