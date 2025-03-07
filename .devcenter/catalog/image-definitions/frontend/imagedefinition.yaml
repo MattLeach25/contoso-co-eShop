@@ -6,18 +6,9 @@ description: "This definition is for the eShop frontend engineering environment"
 
 tasks:
   - name: ~/winget
-    parameters:
-      downloadUrl: 'https://raw.githubusercontent.com/contoso-co/common-eng-sys/main/dsc-configurations/common-config.dsc.yaml'
-
-  - name: ~/winget
     description: Install AZD
     parameters:
       package:  Microsoft.Azd
-
-  - name: ~/winget
-    description: Install Visual Studio Code
-    parameters:
-      package:  Microsoft.VisualStudioCode
 
   - name: ~/powershell
     parameters:
